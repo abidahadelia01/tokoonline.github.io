@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+/* navbar start */
+#main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    height: 40px;
+    line-height: 43px;
+    margin: 4px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #D6CDA4;
+}
+
+.hi {
+    color: #D6CDA4;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-bottom: 2px solid #D6CDA4;
+}
+
+nav ul li a:hover {
+    background-color: #D6CDA4;
+    color: rgb(5, 5, 5);
+    box-shadow: 5px 10px 30px rgba(5, 5, 5, 0.3);
+    transition: all ease 0.2s;
+}
+#main {
+    width: 100%;
+    border-top: 1px solid rgba(58, 58, 58, 0.03);
+    border-bottom: 1px solid rgba(58, 58, 58, 0.03);
+    padding: 50px 0px;
+    background-image: url("../images/bg2.png");
+    background-position: center;
+    background-size: 1200px;
+}
